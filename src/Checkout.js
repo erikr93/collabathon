@@ -42,16 +42,16 @@ class Checkout extends Component {
           <form>
             <h3>Shipping Address</h3>
               <div>
-                First Name: <input className="textbox" type="text"/>
-                Last Name: <input className="textbox" type="text"/>
+                First Name: <input type="text"/>
+                Last Name: <input type="text"/>
               </div>
               <div>
-                Address: <input className="textbox" type="text"/>
-                Address 2: <input className="textbox" type="text"/>
+                Address: <input type="text"/>
+                Address 2: <input type="text"/>
               </div>
-              City: <input className="textbox" type="text"/>
-              State: <input className="textbox" type="text"/>
-              Zip Code: <input className="textbox" type="text"/>
+              City: <input type="text"/>
+              State: <input type="text"/>
+              Zip Code: <input type="text"/>
           </form>
           <form>
             <h3>Payment Information</h3>
@@ -61,14 +61,14 @@ class Checkout extends Component {
                               <input type="radio" input="American Express"/>
               </div>
               <div>
-                Card Number: <input className="textbox" type="text"/>
+                Card Number: <input type="text"/>
               </div>
               <div>
               Expiration Date: <input type="date"/>
               </div>
-              Cardholder Name: <input className="textbox" type="text"/>
+              Cardholder Name: <input type="text"/>
               <div>
-              CSV: <input className="textbox" type="text"/>
+              CSV: <input type="text"/>
               </div>
           </form>
           <form>

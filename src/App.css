@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
   background: black;
@@ -117,12 +119,18 @@ img{
   border-bottom: 1px #4cbb17 solid;
   width: 75%;
   margin: 0 auto;
-vertical-align: top;
+  vertical-align: top;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #e8d722;
 }
 .main-text{
   text-align: left;
   margin: 0 auto;
   vertical-align: top;
+  margin-right: 10px;
 }
 .name {
   display: inline-block;
@@ -149,4 +157,13 @@ span {
 	border:1px;
 	padding:4px 8px;
 	margin-bottom:0px;
+}
+strong {
+  font-size: 25px;
+  font-weight: none;
+  letter-spacing: 2px;
+}
+.products {
+  text-align: left;
+  margin-left: 80px;
 }

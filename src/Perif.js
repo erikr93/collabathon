@@ -23,7 +23,7 @@ class Perif extends Component {
     var mappedPerif = this.props.perifItems.map((perif, index) => {
       return([
           // <div className="core" key={core.call}>{core}</div>
-          <div key={index}>
+          <div className="products" key={index}>
             <p href="/perif" key={index} onClick={this.handleChange}><strong data-id={index}>{perif.name}</strong></p>
             <p>Price: {perif.price}</p> <p>Description: {perif.description}</p>
           </div>

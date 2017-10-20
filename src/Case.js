@@ -23,7 +23,7 @@ class Case extends Component {
     var mappedCase = this.props.caseItems.map((cases, index) => {
       return([
           // <div className="core" key={core.call}>{core}</div>
-          <div key={index}>
+          <div className="products" key={index}>
             <p href="/perif" key={index} onClick={this.handleChange}><strong data-id={index}>{cases.name}</strong></p>
             <p>Price: {cases.price}</p> <p>Description: {cases.description}</p>
           </div>
